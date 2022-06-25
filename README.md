@@ -1,2 +1,2 @@
-# INeuron_Homework
-Practised assignments with respect to DS
+# Data-Science
+Topic wise assignments with respect to DS from Ineuron(@Full-Stack-Data-Science-Bootcamp)
