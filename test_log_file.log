@@ -1,0 +1,412 @@
+root - INFO - 2022-07-03 00:07:29,944 - user input is :5
+root - WARNING - 2022-07-03 00:07:33,351 - user input value for order is improper :yu
+root - WARNING - 2022-07-03 00:07:35,990 - user input value for order is improper :h
+root - WARNING - 2022-07-03 00:07:39,614 - user input value for order is improper :asce
+root - DEBUG - 2022-07-03 00:07:41,467 - sorted list values are :[1, 2, 8.45, 11, 23, 67, 78.45, 99]
+root - INFO - 2022-07-03 00:08:08,931 - user input is :1
+root - DEBUG - 2022-07-03 00:08:12,785 - user value for append is 7
+root - DEBUG - 2022-07-03 00:08:12,785 - user value 7 added successfully
+root - DEBUG - 2022-07-03 00:08:12,801 - consolidated list is:[1, 2, 8.45, 11, 23, 67, 78.45, 99, '7']
+root - ERROR - 2022-07-03 13:50:26,027 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 112, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 13:50:26,069 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 112, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 13:50:26,069 - line number112
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 112, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 13:51:15,443 - user input is :1
+root - DEBUG - 2022-07-03 13:51:26,474 - user value for append is 100
+root - DEBUG - 2022-07-03 13:51:26,474 - user value 100 added successfully
+root - DEBUG - 2022-07-03 13:51:26,474 - consolidated list is:[1, 2, 8.45, 11, 23, 67, 78.45, 99, '7', '100']
+root - ERROR - 2022-07-03 13:51:59,433 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 112, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 13:51:59,433 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 112, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 13:51:59,433 - line number112
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 112, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 13:56:55,312 - user input is :1
+root - ERROR - 2022-07-03 13:56:58,613 - exception class<class 'TypeError'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 19, in add_value
+    logging.debug("user value for append is " + value)
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 116, in <module>
+    list_var.add_value(int(input("Enter your value:")))
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 27, in add_value
+    logging.exception("Exception '"+ str(e)+ "' raised while appending value "+ value+ " in the list ",
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 13:56:58,629 - exception messagecan only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 19, in add_value
+    logging.debug("user value for append is " + value)
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 116, in <module>
+    list_var.add_value(int(input("Enter your value:")))
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 27, in add_value
+    logging.exception("Exception '"+ str(e)+ "' raised while appending value "+ value+ " in the list ",
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 13:56:58,629 - line number116
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 19, in add_value
+    logging.debug("user value for append is " + value)
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 116, in <module>
+    list_var.add_value(int(input("Enter your value:")))
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 27, in add_value
+    logging.exception("Exception '"+ str(e)+ "' raised while appending value "+ value+ " in the list ",
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 13:58:00,825 - exception class<class 'ValueError'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+ValueError: invalid literal for int() with base 10: ''
+root - ERROR - 2022-07-03 13:58:00,825 - exception messageinvalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+ValueError: invalid literal for int() with base 10: ''
+root - ERROR - 2022-07-03 13:58:00,825 - line number113
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+ValueError: invalid literal for int() with base 10: ''
+root - ERROR - 2022-07-03 13:58:00,825 - exception class<class 'ValueError'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+ValueError: invalid literal for int() with base 10: ''
+root - ERROR - 2022-07-03 13:58:00,825 - exception messageinvalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+ValueError: invalid literal for int() with base 10: ''
+root - ERROR - 2022-07-03 13:58:00,825 - line number113
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+ValueError: invalid literal for int() with base 10: ''
+root - ERROR - 2022-07-03 13:58:22,331 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 13:58:22,331 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 13:58:22,331 - line number113
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 13:59:10,490 - user input is :1
+root - DEBUG - 2022-07-03 13:59:14,222 - user value for append is 10
+root - DEBUG - 2022-07-03 13:59:14,222 - user value 10 added successfully
+root - DEBUG - 2022-07-03 13:59:14,222 - consolidated list is:[1, 11, 23, 2, 8.45, 99, 67, 78.45, 10]
+root - ERROR - 2022-07-03 14:01:54,442 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 14:01:54,442 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 14:01:54,442 - line number113
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 113, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 15:13:01,855 - user input is :2
+root - ERROR - 2022-07-03 15:25:05,963 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 119, in <module>
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 15:25:05,966 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 119, in <module>
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 15:25:05,967 - line number119
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 119, in <module>
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 15:25:20,962 - user input is :2
+root - DEBUG - 2022-07-03 15:25:37,583 - user value 20 is added at position 2 successfully
+root - DEBUG - 2022-07-03 15:25:37,583 - consolidated list is:[1, 11, 20, 23, 2, 8.45, 99, 67, 78.45]
+root - INFO - 2022-07-03 15:25:54,259 - user input is :9
+root - INFO - 2022-07-03 15:26:05,736 - user input is :3
+root - DEBUG - 2022-07-03 15:26:19,581 - user value 23 is removed successfully
+root - DEBUG - 2022-07-03 15:26:19,581 - consolidated list after removing value is:[1, 11, 2, 8.45, 99, 67, 78.45]
+root - INFO - 2022-07-03 15:26:34,514 - user input is :4
+root - DEBUG - 2022-07-03 15:26:34,514 - removed last element 78.45 successfully
+root - DEBUG - 2022-07-03 15:26:34,514 - consolidated list after removing value is:[1, 11, 2, 8.45, 99, 67]
+root - INFO - 2022-07-03 15:26:48,248 - user input is :5
+root - WARNING - 2022-07-03 15:26:54,301 - user input value for order by is improper :d
+root - DEBUG - 2022-07-03 15:26:56,890 - sorted list values are :[99, 67, 11, 8.45, 2, 1]
+root - INFO - 2022-07-03 15:27:08,142 - user input is :6
+root - DEBUG - 2022-07-03 15:27:08,142 - reversed list is:[1, 2, 8.45, 11, 67, 99]
+root - INFO - 2022-07-03 15:27:26,473 - user input is :11
+root - INFO - 2022-07-03 15:27:47,338 - user input is :7
+root - ERROR - 2022-07-03 15:27:53,243 - exception class<class 'TypeError'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 117, in count_no_of_occurance
+    logging.debug("no of occurrence of "+ value+ "in the list is :"+ str(no_of_occ))
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 185, in <module>
+    list_var.count_no_of_occurance(u_inp)
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 119, in count_no_of_occurance
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 15:27:53,245 - exception messagecan only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 117, in count_no_of_occurance
+    logging.debug("no of occurrence of "+ value+ "in the list is :"+ str(no_of_occ))
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 185, in <module>
+    list_var.count_no_of_occurance(u_inp)
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 119, in count_no_of_occurance
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 15:27:53,245 - line number185
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 117, in count_no_of_occurance
+    logging.debug("no of occurrence of "+ value+ "in the list is :"+ str(no_of_occ))
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 185, in <module>
+    list_var.count_no_of_occurance(u_inp)
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 119, in count_no_of_occurance
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+TypeError: can only concatenate str (not "int") to str
+root - INFO - 2022-07-03 15:28:16,801 - user input is :8
+root - DEBUG - 2022-07-03 15:28:21,474 - index of first occurance of 99from the list is :5
+root - DEBUG - 2022-07-03 15:28:41,056 - index of first occurance of 67from the list is :4
+root - ERROR - 2022-07-03 15:29:44,808 - Exception '9 is not in list' raised while finding index of value 9 in the list [1, 2, 8.45, 11, 67, 99]
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 129, in ind_of
+    ind = its_ptr.default_list.index(int(value))
+ValueError: 9 is not in list
+root - ERROR - 2022-07-03 15:29:47,223 - Exception '0 is not in list' raised while finding index of value 0 in the list [1, 2, 8.45, 11, 67, 99]
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 129, in ind_of
+    ind = its_ptr.default_list.index(int(value))
+ValueError: 0 is not in list
+root - ERROR - 2022-07-03 15:29:49,935 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 188, in <module>
+    u_inp = input("Enter your value:")
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 15:29:49,937 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 188, in <module>
+    u_inp = input("Enter your value:")
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 15:29:49,937 - line number188
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 188, in <module>
+    u_inp = input("Enter your value:")
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 15:30:00,501 - user input is :8
+root - DEBUG - 2022-07-03 15:30:04,628 - index of first occurance of 99from the list is :5
+root - INFO - 2022-07-03 15:30:21,857 - user input is :8
+root - DEBUG - 2022-07-03 15:31:18,610 - index of first occurance of 1from the list is :0
+root - INFO - 2022-07-03 15:31:21,641 - user input is :9
+root - INFO - 2022-07-03 16:51:28,189 - user input is :11
+root - INFO - 2022-07-03 16:51:34,261 - user input is :9
+
+==============
+root - ERROR - 2022-07-03 16:54:11,711 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 152, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 16:54:11,715 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 152, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 16:54:11,715 - line number152
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 152, in <module>
+    u_choice = int(input("Enter your choice: "))
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 16:54:51,643 - From class Lists
+root - INFO - 2022-07-03 16:54:54,647 - user input is :1
+root - DEBUG - 2022-07-03 16:54:58,610 - user value for append is 100
+root - DEBUG - 2022-07-03 16:54:58,610 - user value 100 added successfully
+root - DEBUG - 2022-07-03 16:54:58,610 - consolidated list is:[1, 11, 23, 2, 8.45, 99, 67, 78.45, 100]
+root - INFO - 2022-07-03 16:55:30,468 - user input is :2
+root - DEBUG - 2022-07-03 16:55:38,805 - user value 200 is added at position 2 successfully
+root - DEBUG - 2022-07-03 16:55:38,805 - consolidated list is:[1, 11, 200, 23, 2, 8.45, 99, 67, 78.45, 100]
+root - INFO - 2022-07-03 16:56:02,863 - user input is :3
+root - DEBUG - 2022-07-03 16:56:07,946 - user value 200 is removed successfully
+root - DEBUG - 2022-07-03 16:56:07,946 - consolidated list after removing value is:[1, 11, 23, 2, 8.45, 99, 67, 78.45, 100]
+root - INFO - 2022-07-03 16:56:19,267 - user input is :4
+root - DEBUG - 2022-07-03 16:56:19,267 - removed last element 100 successfully
+root - DEBUG - 2022-07-03 16:56:19,267 - consolidated list after removing value is:[1, 11, 23, 2, 8.45, 99, 67, 78.45]
+root - INFO - 2022-07-03 16:56:52,480 - user input is :5
+root - WARNING - 2022-07-03 16:56:55,744 - user input value for order by is improper :a
+root - DEBUG - 2022-07-03 16:56:59,477 - sorted list values are :[1, 2, 8.45, 11, 23, 67, 78.45, 99]
+root - INFO - 2022-07-03 16:57:06,599 - user input is :6
+root - DEBUG - 2022-07-03 16:57:06,599 - reversed list is:[99, 78.45, 67, 23, 11, 8.45, 2, 1]
+root - INFO - 2022-07-03 16:57:11,549 - user input is :7
+root - ERROR - 2022-07-03 16:57:16,198 - exception class<class 'TypeError'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 118, in count_no_of_occurance
+    logging.debug("no of occurrence of "+ value+ " in the list is :"+ str(no_of_occ))
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 185, in <module>
+    list_var.count_no_of_occurance(u_inp)
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 120, in count_no_of_occurance
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 16:57:16,199 - exception messagecan only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 118, in count_no_of_occurance
+    logging.debug("no of occurrence of "+ value+ " in the list is :"+ str(no_of_occ))
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 185, in <module>
+    list_var.count_no_of_occurance(u_inp)
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 120, in count_no_of_occurance
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+TypeError: can only concatenate str (not "int") to str
+root - ERROR - 2022-07-03 16:57:16,200 - line number185
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 118, in count_no_of_occurance
+    logging.debug("no of occurrence of "+ value+ " in the list is :"+ str(no_of_occ))
+TypeError: can only concatenate str (not "int") to str
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 185, in <module>
+    list_var.count_no_of_occurance(u_inp)
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 120, in count_no_of_occurance
+    logging.exception("Exception '"+ str(e)+ "' raised while counting the no of occurrence of value "+ value+
+TypeError: can only concatenate str (not "int") to str
+root - INFO - 2022-07-03 16:57:29,270 - user input is :8
+root - DEBUG - 2022-07-03 16:57:33,259 - index of first occurance of 1 from the list is :7
+root - INFO - 2022-07-03 16:57:50,769 - user input is :10
+root - INFO - 2022-07-03 16:57:53,289 - user input is :9
+root - INFO - 2022-07-03 17:07:07,674 - From class Lists
+root - INFO - 2022-07-03 17:07:15,350 - user input is :7
+root - ERROR - 2022-07-03 17:08:51,202 - exception class<class 'KeyboardInterrupt'>
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 182, in <module>
+    u_inp = input("Enter your value from the list:")
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 17:08:51,204 - exception message
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 182, in <module>
+    u_inp = input("Enter your value from the list:")
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - ERROR - 2022-07-03 17:08:51,205 - line number182
+Traceback (most recent call last):
+  File "C:\Users\HP\PycharmProjects\oops\Lists.py", line 182, in <module>
+    u_inp = input("Enter your value from the list:")
+  File "C:\Users\HP\anaconda3\envs\oops\lib\codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+KeyboardInterrupt
+root - INFO - 2022-07-03 17:08:54,654 - From class Lists
+root - INFO - 2022-07-03 17:08:57,351 - user input is :7
+root - DEBUG - 2022-07-03 17:09:00,992 - no of occurrence of 99 in the list is :1
+root - INFO - 2022-07-03 17:09:05,095 - user input is :9
